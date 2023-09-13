@@ -1,0 +1,13 @@
+<div class="container__news-card">
+  <div class="news__photo">
+    <img src="{{ photoCover }}" alt="" srcset="">
+  </div>
+  <div class="news__title">
+    <h1><a [routerLink]="['gaming-news', Id]">{{ newsTitle }}</a></h1>
+  </div>
+  <div class="news__description">
+    <p>
+      <a [routerLink]="['gaming-news', Id]">{{ newsDescription }}</a>
+    </p>
+  </div>
+</div>

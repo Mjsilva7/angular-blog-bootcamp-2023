@@ -1,5 +1,13 @@
 header {
-  margin-top: 15px;
+  margin-top: 0.938rem;
   display: flex;
   justify-content: center;
+}
+
+@media scren and (max-width: 62rem) {
+  header {
+    margin-top: 0.938rem;
+    display: flex;
+    justify-content: center;
+  }
 }

@@ -1,5 +1,5 @@
 .container__small-card{
-  width: 700px;
+  width: 600px;
   margin-bottom: 15px;
 }
 
@@ -22,4 +22,9 @@
 
 .container__small-card__separator{
   margin-top: 10px;
+  border-color: #820ad1;
+}
+
+.container__small-card__separator > hr{
+  border-color: #820ad1;
 }

@@ -9,9 +9,11 @@
   font-family: 'segoe UI';
   display: flex;
   justify-content: center;
+  text-shadow: -3px -1px 0 #820ad1;
 }
 
 .container__menu-title > hr{
   margin-top: 20px;
   margin-bottom: 5px;
+  border-color: #820ad1;
 }
